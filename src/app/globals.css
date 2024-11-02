@@ -17,5 +17,100 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
+
+}
+.word{
+ color: rgb(136, 133, 133);
+  ;
+}
+
+.button{
+width:145px;
+height: 39px;
+opacity: 0px;
+border-radius: 20px;
+padding: 10px;
+gap: 10px;
+opacity: 0px; 
+background-color:  rgba(240, 168, 208, 1);
+   
+}
+.follow{
+  color: rgba(255, 255, 255, 1);
+  ;
+}
+
+.message{
+  width: 145px;
+  height: 39px;
+  padding: 10px 0;
+  color:rgba(240, 168, 208, 1) ;
+  border-radius: 20px; 
+  background-color: white; 
+  border: 2px solid rgba(240, 168, 208, 1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1; 
+  transition: opacity 0.3s;
+}
+
+.message:hover{
+  opacity: 0.8;
+}
+
+.genres-button{
+  width: 114px;
+  height: 39px;
+  padding: 10px 0;
+  border-radius: 20px; 
+  background-color: white; 
+  border: 2px solid rgba(240, 168, 208, 1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1; 
+  transition: opacity 0.3s;
+
+}
+
+.genres-container{ 
+  display: grid;
+  gap: 8px;
+}
+
+@media (min-width: 640px){
+  .genres-container{
+  display: flex;
+
+  }
+}
+@media (max-width: 640px) {
+  .genres-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .favorite-genres{
+    text-align: left;
+  }
+}
+
+@media (max-width: 640px){
+  .books{
+  display: flex;
+  gap: 10px;
+
+  }
+
+  .favorite-books{
+    text-align: left;
+  }
+}
+
+@media (min-width: 640px){
+  .books{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
 }
