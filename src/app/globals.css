@@ -36,10 +36,29 @@ opacity: 0px;
 background-color:  rgba(240, 168, 208, 1);
    
 }
-.follow{
+/* .follow{
   color: rgba(255, 255, 255, 1);
+background-color:  rgba(240, 168, 208, 1);
+
   ;
+} */
+
+.message-two{
+  width: 145px;
+  height: 39px;
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 20px; 
+  background-color:  rgba(240, 168, 208, 1);
+  border: 2px solid rgba(240, 168, 208, 1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1; 
+  transition: opacity 0.3s;
 }
+
+
 
 .message{
   width: 145px;
@@ -99,11 +118,16 @@ background-color:  rgba(240, 168, 208, 1);
   .books{
   display: flex;
   gap: 10px;
+  overflow-x: auto;
 
   }
 
   .favorite-books{
     text-align: left;
+  }
+
+  .footer{
+    height: 300px;
   }
 }
 

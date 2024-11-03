@@ -57,7 +57,7 @@ export const UserProfile = () => {
     </div>
 
     <div className="flex mt-4 gap-2">
-      <button className="button follow">Follow</button>
+      <button className="button message-two">Follow</button>
       <button className="button message">Message</button>
     </div>
 
@@ -94,12 +94,13 @@ export const UserProfile = () => {
       <p className="font-semibold font-inter text-center favorite-books">Ashley’s Favorite Books</p>
     </div>
 
-    <div className="books">
-      <Image src="/images/harry-pooter-book.png" alt="book" width={150} height={150} className="mt-8 w-full sm:w-1/2 md:w-1/4 lg:w-1/6 object-contain"  />
-      <Image src="/images/realy-book.png" alt="realy-book" width={150} height={150} className="mt-8 w-full sm:w-1/2 md:w-1/4 lg:w-1/6 object-contain" />
-      <Image src="/images/no-place-book.png" alt="no-place-book" width={150} height={150} className="mt-8 w-full sm:w-1/2 md:w-1/4 lg:w-1/6 object-contain" />
-      <Image src="/images/beloved-book.png" alt="beloved-book" width={150} height={150} className="mt-8 w-full sm:w-1/2 md:w-1/4 lg:w-1/6 object-contain"/>
-    </div>
+    <div className="books flex overflow-x-auto space-x-4">
+  <Image src="/images/harry-pooter-book.png" alt="book" width={175} height={175} className="mt-8 w-32 object-contain" />
+  <Image src="/images/realy-book.png" alt="realy-book" width={175} height={175} className="mt-8 w-32 object-contain" />
+  <Image src="/images/no-place-book.png" alt="no-place-book" width={175} height={175} className="mt-8 w-32 object-contain" />
+  <Image src="/images/beloved-book.png" alt="beloved-book" width={175} height={175} className="mt-8 w-32 object-contain" />
+</div>
+
 
     <Footer/>
   </div>

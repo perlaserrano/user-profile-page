@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer className="mt-8 p-4 text-center">
+    <footer className="mt-8 p-4 text-center footer">
       <div className="mb-4">
         <p className="text-sm font-inter  ">Diseñado por <a className=" text-pink-500" href="https://www.linkedin.com/in/rosangelica-feliz-saldivar-5969381b6/">Rosangelica Saldivar</a> , Desarrollado por <a className=" text-pink-500" href="https://www.linkedin.com/in/perla-serrano-257b9217b/"> Perla Serrano</a></p>
         <p className="text-xs font-inter  ">© 2024 Todos los derechos reservados.</p>
